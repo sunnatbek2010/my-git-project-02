@@ -1,0 +1,47 @@
+.card1{
+    background-color: aliceblue;
+    width: 450px;
+    overflow:hidden;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(96, 100, 158);
+}
+.card-img{
+    max-height: 360px;
+    overflow: hidden;
+}
+.img1{
+    position: relative;
+    width: 450px;
+    transition: 0.2s;
+    height: 360px;
+    z-index: 2;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img1:hover{
+    transform:scale(1.2);
+    transition: 0.2s;
+}
+
+.cards1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.cards2{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60px;
+}
+.text{
+    position: relative;
+    height: 280px;
+    z-index: 1;
+    width: 350px;
+    min-height: 280px;
+    margin-left: 20px;
+}
